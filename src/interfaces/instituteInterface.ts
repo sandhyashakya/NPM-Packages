@@ -1,0 +1,36 @@
+import { INSTITUTE_STATUS, PLANNER_SYNC_STATUS, SCHOOL_SUB_TYPE, SCHOOL_TYPE } from '../constants/app';
+// import { TInstituteCreationAttributes } from '../types/instituteType';
+import { IDefaultAttributes } from './commanInterface';
+export interface IInstituteAttributes extends IDefaultAttributes {
+    id: string;
+    name: string;
+    email: string;
+    mobile: string;
+    contactPerson: string;
+    mobile2?: string;
+    contactPerson2?: string;
+    addressLine1: string;
+    addressLine2: string;
+    pinCode: string;
+    area?: string;
+    status?: INSTITUTE_STATUS;
+    defaultDataCreate: boolean;
+    type?: SCHOOL_TYPE;
+    subType?: SCHOOL_SUB_TYPE;
+    city: number;
+    state: number;
+    country: number;
+    aboutInstitute?: string;
+    globalId?: string;
+    websiteUrl?: string;
+    youtubeUrl?: string;
+    instagramUrl?: string;
+    facebookUrl?: string;
+    whatsappUrl?: string;
+    profileImage?: string;
+    coverImage?: string;
+    brochure?: string;
+    district?: string;
+    plannerSyncStatus?: PLANNER_SYNC_STATUS;
+    pdfId?: string;
+}
