@@ -1,5 +1,5 @@
 {
-  "name": "@kipi/interfaces",
+  "name": "@kipipackages/interfaces",
   "version": "1.0.0",
   "description": "The TypeScript interfaces library for application models.",
   "main": "dist/index.js",
@@ -7,6 +7,10 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "author": "",
   "license": "MIT",
