@@ -276,6 +276,7 @@ export * from "../src/types/walletTransactionType"
 export * from "../src/types/walletType"
 export * from "../src/types/workingDayType"
 export * from "../src/types/workingShiftType"
+export * from "../src/types/sequelize-extensions"
 
 
 
