@@ -1,6 +1,6 @@
 {
   "name": "@kipipackages/interfaces",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "The TypeScript interfaces library for application models.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
